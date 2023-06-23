@@ -6,12 +6,10 @@
 /*   By: minylee <minylee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 12:09:55 by minylee           #+#    #+#             */
-/*   Updated: 2023/06/23 22:58:59 by minylee          ###   ########.fr       */
+/*   Updated: 2023/06/23 23:04:43 by minylee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <fcntl.h>
-#include <unistd.h>
 #include "../../so_long.h"
 
 int	map_parser(t_map *map, const char *path)

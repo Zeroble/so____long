@@ -6,7 +6,7 @@
 /*   By: minylee <minylee@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 13:04:16 by minylee           #+#    #+#             */
-/*   Updated: 2023/06/23 22:57:59 by minylee          ###   ########.fr       */
+/*   Updated: 2023/06/23 23:04:56 by minylee          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 # define SO_LONG_H
 
 # include <unistd.h>
-# include <stdio.h>
 # include <stdlib.h>
-# include <stdlib.h>
+# include <fcntl.h>
+# include <unistd.h>
 # include "mlx.h"
 
 # define MAX_WIDTH_TILE 38
